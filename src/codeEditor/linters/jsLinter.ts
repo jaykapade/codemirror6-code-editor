@@ -13,8 +13,8 @@ const createLintDiv = (severity: "warning" | "error", message: string) => {
   const img = document.createElement("img");
   img.src =
     severity === "warning"
-      ? "assets/warning.svg"
-      : "assets/error.svg";
+      ? "https://utfs.io/f/2e77f9f5-0bc6-45c6-95f0-94368fcee4ed-ilgs64.svg"
+      : "https://utfs.io/f/cd9b39d0-d02a-4d6f-8372-fb6185ba33d7-1lmfpk.svg";
 
   imgDiv.appendChild(img);
 
